@@ -1,5 +1,5 @@
 <br><p align="center">
-<img height="100px" src="./public/movies.webp" />
+<img height="100px" src="./public/logo-cubos.svg" />
 </p>
 
 <h1 align="center">Cubos Movies</h1>
