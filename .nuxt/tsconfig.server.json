@@ -1,0 +1,97 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "allowSyntheticDefaultImports": true,
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "./types/nitro-imports"
+      ],
+      "#paths": [
+        "../node_modules/.pnpm/nuxt@3.8.2_eslint@8.55.0_typescript@5.3.2_vite@4.5.1_vue-tsc@1.8.24/node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
+      "~": [
+        "./.."
+      ],
+      "~/*": [
+        "../*"
+      ],
+      "@": [
+        "./.."
+      ],
+      "@/*": [
+        "../*"
+      ],
+      "~~": [
+        "./.."
+      ],
+      "~~/*": [
+        "../*"
+      ],
+      "@@": [
+        "./.."
+      ],
+      "@@/*": [
+        "../*"
+      ],
+      "assets": [
+        "../assets"
+      ],
+      "public": [
+        "../public"
+      ],
+      "public/*": [
+        "../public/*"
+      ],
+      "#image": [
+        "../node_modules/.pnpm/@nuxt+image@1.1.0/node_modules/@nuxt/image/dist/runtime"
+      ],
+      "#image/*": [
+        "../node_modules/.pnpm/@nuxt+image@1.1.0/node_modules/@nuxt/image/dist/runtime/*"
+      ],
+      "vue-i18n": [
+        "../node_modules/vue-i18n/dist/vue-i18n"
+      ],
+      "@intlify/shared": [
+        "../node_modules/.pnpm/@intlify+shared@9.3.0-beta.17/node_modules/@intlify/shared/dist/shared"
+      ],
+      "@intlify/vue-router-bridge": [
+        "../node_modules/@intlify/vue-router-bridge/lib/index"
+      ],
+      "@intlify/vue-i18n-bridge": [
+        "../node_modules/@intlify/vue-i18n-bridge/lib/index"
+      ],
+      "vue-i18n-routing": [
+        "../node_modules/vue-i18n-routing/dist/vue-i18n-routing"
+      ],
+      "#i18n": [
+        "../node_modules/.pnpm/@nuxtjs+i18n@8.0.0-beta.12_vue-router@4.2.5_vue@3.3.10/node_modules/@nuxtjs/i18n/dist/runtime/composables"
+      ]
+    }
+  },
+  "include": [
+    "./types/nitro-nuxt.d.ts",
+    "../node_modules/.pnpm/@vueuse+nuxt@10.7.0_nuxt@3.8.2_vue@3.3.10/node_modules/@vueuse/nuxt/runtime/server",
+    "../node_modules/.pnpm/@unocss+nuxt@0.58.0_postcss@8.4.32_vite@4.5.1_webpack@5.79.0/node_modules/@unocss/nuxt/runtime/server",
+    "../node_modules/.pnpm/@nuxt+image@1.1.0/node_modules/@nuxt/image/runtime/server",
+    "../node_modules/.pnpm/@nuxtjs+i18n@8.0.0-beta.12_vue-router@4.2.5_vue@3.3.10/node_modules/@nuxtjs/i18n/runtime/server",
+    "../node_modules/.pnpm/@nuxt+devtools@1.0.4_nuxt@3.8.2_vite@4.5.1/node_modules/@nuxt/devtools/runtime/server",
+    "../node_modules/.pnpm/@nuxt+telemetry@2.5.3/node_modules/@nuxt/telemetry/runtime/server",
+    "./types/nitro.d.ts",
+    "../**/*",
+    "../server/**/*"
+  ],
+  "exclude": [
+    "../node_modules",
+    "../node_modules/.pnpm/nuxt@3.8.2_eslint@8.55.0_typescript@5.3.2_vite@4.5.1_vue-tsc@1.8.24/node_modules/nuxt/node_modules",
+    "../dist"
+  ]
+}

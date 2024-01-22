@@ -1,0 +1,18 @@
+{
+  "@vite/client": {
+    "prefetch": true,
+    "isEntry": true,
+    "file": "@vite/client",
+    "css": [],
+    "module": true,
+    "resourceType": "script"
+  },
+  "/Users/lucas/Desktop/cubos/node_modules/.pnpm/nuxt@3.8.2_eslint@8.55.0_typescript@5.3.2_vite@4.5.1_vue-tsc@1.8.24/node_modules/nuxt/dist/app/entry.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "isEntry": true,
+    "file": "/Users/lucas/Desktop/cubos/node_modules/.pnpm/nuxt@3.8.2_eslint@8.55.0_typescript@5.3.2_vite@4.5.1_vue-tsc@1.8.24/node_modules/nuxt/dist/app/entry.js"
+  }
+}
